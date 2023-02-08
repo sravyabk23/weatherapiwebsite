@@ -1,0 +1,150 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    /* text-align: center; */
+}
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(R.jpg);
+    background-repeat: no-repeat;
+    background-size: 1400px 800px;
+}
+.input{
+    text-align: center;
+    margin: 100px 0;
+}
+input[type="text"]
+{
+    height: 50px;
+    width: 200px;
+    background: #e7e7e7;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    overflow: hidden;
+    border-bottom: 3px solid rgb(38,115,179) ;
+    outline: none;
+    background: none;
+    border-top: none;
+    border-left:none;
+    color: white;
+    border-right:none;    /*box-shadow: 2px 3px 2px rgb(38, 115, 179);*/
+
+    
+}
+input[type="submit"]
+{
+    background: #e7e7e7;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 80px;
+    height: 30px;
+    font-size: 20px;
+    border: none;
+    margin-left: 10px;
+    border-radius:2px ;
+    -webkit-border-radius:2px ;
+    -moz-border-radius:2px ;
+    -ms-border-radius:2px ;
+    -o-border-radius:2px ;
+}
+
+.b2{
+    width:400px;
+    height: 600px;
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    top:80px;
+    left:200px;
+    position: absolute;
+    display: inline-block;
+}
+span{
+    text-align: center;
+}
+#tab{
+    margin: 20px auto;
+    border: 2px solid #e7e7e7;
+    margin-top:-10%;
+    text-align: center;
+
+}
+#tab th{
+    padding: 5px;
+
+    text-align: center;
+    border: none;
+    background-color: #e7e7e7;
+    color:black;
+}
+.temp0,.temp{
+    color:rgb(38,115,179);
+}
+.b1{
+    width:400px;
+    height: 500px;
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    text-align: center;
+    padding-top: 110px;
+    position: absolute;
+    top: 110px;
+    left: 850px;
+}
+.b0
+{
+    display: inline-flex;
+}
+.weather-icon
+{
+    position: relative;
+    align-items: center;
+    
+}
+.temp{
+    position: relative;
+    align-items: center;
+    bottom: 160px;
+    font-size: 40px;
+
+}
+#wealth
+{
+    position: relative;
+    left: 5px;
+    bottom: 110px;
+    align-items: center;
+}
+.name1,.desc,.humidity{
+    position: relative;
+    
+}
+.name1{
+   right:10px;
+   top:90px;
+   align-items: center;
+   font-size: 30px;
+}
+.desc{
+    bottom: 50px;
+    right: 30px;
+    font-size: 23px;
+}
+.humidity{
+    bottom: 75px;
+    right: -25px;
+    font-size: 23px;
+}
+.humidity0
+{   position: relative;
+    left:30px;
+    font-size: 23px;
+}
+.desc0{
+    top: 24px;
+    right: 30px;
+    position: relative;
+    font-size: 26px;
+}
